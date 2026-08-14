@@ -17,12 +17,12 @@ The line in the canteen is so long, it would starve some students short on time.
 4. Having only 3 Lines for Hundreds of Students
 ---
 ## Step 3: Apply Computational Thinking Skills
-| Sub-Problem            | CT Skill | Proposed Solution       |
-|---                     |---       |---                      |
-| Students' Wake-Up Time | CT skill | Brief proposed solution |
-| 5:30 Opening           | CT skill | Brief proposed solution |
-| Few Employees          | CT skill | Brief proposed solution |
-| Having only 3 Lines    | CT skill | Brief proposed solution |
+| Sub-Problem            | CT Skill         | Proposed Solution       |
+|---                     |---               |---                      |
+| Students' Wake-Up Time | Abstraction      | Earlier Sleep Schedule  |
+| 5:30 Opening           | Algorithm Design | Limit to 5:00           |
+| Few Employees          | Algorithm Design | Hire More Employees     |
+| Having only 3 Lines    | Decomposition    | Make More Lines         |
 ---
 ## Step 4: Algorithmic Solution
 ### Selected Sub-Problem
