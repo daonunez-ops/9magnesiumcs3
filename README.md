@@ -1,5 +1,6 @@
 # 9magnesiumcs3
-**Denver Angel O. Nuñez 9 - Magnesium**
+**Denver Angel O. Nuñez** 
+**9 - Magnesium**
 
 # Links:
 [**Computational Thinking Skills (Markdown File)**](q1/ctskillsMagnesiumNuñez.md)
