@@ -8,3 +8,5 @@
 # Made the function zodiac_teller that prints your zodiac sign from the remainder
 # Made function main outside class Zodiac
 # Made a conditional statement to check baseline 1900
+![Code](zodiac_code.png)
+![Output](zodiac_output.png)
