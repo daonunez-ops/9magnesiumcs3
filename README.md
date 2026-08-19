@@ -1,4 +1,4 @@
-# 9magnesiumcs3
+# Computer Science 3 Portfolio
 **Denver Angel O. Nuñez**\
 **9 - Magnesium**
 
