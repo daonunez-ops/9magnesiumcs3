@@ -1,7 +1,7 @@
 # Chinese Zodiac Documentation
 **Ask the user an input to get a value, use input()**
-**# Input must be integer, so will use int()**
-**# Used class to have it organized**
+**Input must be integer, so will use int()**
+**Used class to have it organized**
 **Named it class Zodiac**
 **The class gets the input value**
 **Made the function __init__ to initiate the class**
