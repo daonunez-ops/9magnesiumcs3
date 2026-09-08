@@ -26,7 +26,7 @@
 | **receive_order()** | **Consumer will receive the order and the receipt is taken away.** |
 
 ## Class Diagram
-![Class Diagram](01101001_01101101_01100001_01100111_01100101_01110011/UML_Class_Diagram.png)
+![Class Diagram](images/ClassDiagram.png)
 
 ## Design Explanation
 ### Why did you choose this class?
@@ -37,3 +37,15 @@
 
 ### Which method is the most useful? Why?
 **The most important method is place_order(product, playment) because it is where most of the logic is. It calculates everything, it creates a receipt, and asks for consumer input.**
+
+**No major changes were needed from my original design.**
+| **Attribute** | **Data Type**| **Visibility** | **Why Public/Private?** |
+|---|---|---|---|
+| **product** | **string** | **public** | **So that the customer sees what he/she is buying** |  
+| **payment** | **float** | **public** | **So that the customer can see how much he/she spent** |
+| **change** | **int** | **public** | **To gain trust from the customer about the change** |
+| **receipt** | **string** | **public** | **To allow the customer to view the transaction summary** |
+| **cost** | **float** | **public** | **To tell the customer a certain product costs a certain value** |
+| **current_orders_time** | **float** | **private** | **Hide it because there are factors that affect this value to change overtime, disappointing customers** |
+| **availability** | **boolean** | **public** | **Tells the customer if the product is on stock or not** |
+

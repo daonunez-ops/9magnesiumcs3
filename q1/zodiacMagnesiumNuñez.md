@@ -11,7 +11,7 @@
 **Made a conditional statement to check baseline 1900**
 
 ## Code
-![Code](01101001_01101101_01100001_01100111_01100101_01110011/zodiac_code.png)
+![Code](images/zodiac_code.png)
 
 ## Output
-![Output](01101001_01101101_01100001_01100111_01100101_01110011/zodiac_output.png)
+![Output](images/zodiac_output.png)

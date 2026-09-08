@@ -11,4 +11,8 @@
 
 [**Applying the Four Pillars of OOP**](q1/ila_oop.md)
 
-[**OOPAct**](q1/classObjectUML.md)
+[**OOPAct UML Diagram with Explanation**](q1/classObjectUML.md)
+
+[**OOPAct Code**](q1/classImplementation.py)
+
+[**OOPAct Summary**](q1/classAttributesMethods.md)
