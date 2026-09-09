@@ -1,4 +1,5 @@
 import random
+LINE = 0
 class Order:
     def __init__(self, product, payment):
         self.receipt = ''
@@ -7,6 +8,7 @@ class Order:
         self.payment = payment
         self.__current_orders_time = 0
     def place_order(self):
+        global LINE
         count = 0
         if isinstance(self.product, list):
             for ITEM in self.product:
@@ -28,6 +30,7 @@ class Order:
                             return None
             self.change = self.payment - count
             self.receipt = f'Receipt:\nOrdered Items: {", ".join(self.product)}\nPayment: {self.payment}\nTotal Cost: {count}\nChange: {self.change}'
+            LINE += 1
         else:
             ITEMS = ['School Supplies', 'Uniform', 'Dinner Meal', 'Lunch Meal', 'Breakfast Meal', 'Snack']
             PRICE = [random.randint(10, 50), random.randint(450, 750), random.randint(75, 110), random.randint(75, 120), random.randint(50, 100), random.randint(20, 70)]
@@ -47,6 +50,7 @@ class Order:
                         return None
             self.change = self.payment - count
             self.receipt = f'Receipt:\nOrdered Items: {self.product}\nPayment: {self.payment}\nTotal Cost: {count}\nChange: {self.change}'
+            LINE += 1
         self.__current_orders_time = sum(len(item) for item in self.product.split()) if isinstance(self.product, str) else sum(len(item) for item in self.product)
     def check_receipt(self):
         if self.receipt:
@@ -54,12 +58,13 @@ class Order:
         else:
             print('No receipt available. Product may not be available or payment is insufficient.')
     def line_up(self):
-        in_line = round(random.uniform(1, 10), 2)
-        self.__current_orders_time *= in_line
+        self.__current_orders_time *= LINE
         print(f'{self.__current_orders_time:.2f} seconds')
     def receive_order(self):
         if self.receipt:
             print(f'Received: {self.product if isinstance(self.product, str) else ", ".join(self.product)}')
+            global LINE
+            LINE -= 1
         else:
             return None
 
@@ -68,7 +73,6 @@ if __name__ == "__main__":
     order2 = Order('Uniform', 1000)
     print('\n----- BEFORE -----')
     print('\nObject 1:')
-    order1.place_order()
     order1.check_receipt()
     print('\nObject 2:')
     order2.check_receipt()
