@@ -7,6 +7,7 @@ class Order:
         self.product = product
         self.payment = payment
         self.__current_orders_time = 0
+        self.availability = random.randint(10, 100)
     def place_order(self):
         global LINE
         count = 0
@@ -19,11 +20,11 @@ class Order:
                 if ITEM not in ITEMS:
                     return None
                 else:
-                    BOOL = [True, False]
-                    IS_AVAILABLE = random.choice(BOOL)
-                    if not IS_AVAILABLE:
+                    if not bool(self.availability):
+                        self.availability = random.randint(10, 100)
                         return None
                     else:
+                        self.availability -= 1
                         if self.payment - count > TO_PAY:
                             count += TO_PAY
                         else:
@@ -39,11 +40,11 @@ class Order:
             if self.product not in ITEMS:
                 return None
             else:
-                BOOL = [True, False]
-                IS_AVAILABLE = random.choice(BOOL)
-                if not IS_AVAILABLE:
+                if not bool(self.availability):
+                    self.availability = random.randint(10, 100)
                     return None
                 else:
+                    self.availability -= 1
                     if self.payment - count > TO_PAY:
                         count += TO_PAY
                     else:
