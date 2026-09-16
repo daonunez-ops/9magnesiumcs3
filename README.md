@@ -13,6 +13,6 @@
 
 [**--> OOPAct Summary | Topic: SG4**](q1/classObjectUML.md)
 
-[**--> OOPAct Code | Topic: SG5**](q1/classImplementation.py)
-
 [**--> OOPAct Summary | Topic: SG5**](q1/classAttributesMethods.md)
+
+[**--> OOPAct Summary | Topic: SG6**](q1/classRelationships.md)
