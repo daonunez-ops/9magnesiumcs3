@@ -3,16 +3,16 @@
 **9 - Magnesium**
 
 # Quarter 1 Links:
-[**Computational Thinking Skills**](q1/ctskillsMagnesiumNuñez.md)
+[**Computational Thinking Skills | Topic: SG2**](q1/ctskillsMagnesiumNuñez.md)
 
-[**Chinese Zodiac Documentation**](q1/zodiacMagnesiumNuñez.md)
+[**Chinese Zodiac Documentation | Topic: SG2**](q1/zodiacMagnesiumNuñez.md)
 
-[**Chinese Zodiac Code**](q1/zodiacMagnesiumNuñez.py)
+[**Chinese Zodiac Code SG2 | Topic: SG2**](q1/zodiacMagnesiumNuñez.py)
 
-[**Applying the Four Pillars of OOP**](q1/ila_oop.md)
+[**Applying the Four Pillars of OOP | Topic: SG3**](q1/ila_oop.md)
 
-[**OOPAct UML Diagram with Explanation**](q1/classObjectUML.md)
+[**OOPAct Summary | Topic: SG4**](q1/classObjectUML.md)
 
-[**OOPAct Code**](q1/classImplementation.py)
+[**OOPAct Code | Topic: SG5**](q1/classImplementation.py)
 
-[**OOPAct Summary**](q1/classAttributesMethods.md)
+[**OOPAct Summary | Topic: SG5**](q1/classAttributesMethods.md)
