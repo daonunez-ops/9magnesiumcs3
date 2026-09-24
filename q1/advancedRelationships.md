@@ -27,7 +27,7 @@
 3. **Why is your HAS-A relationship Composition or Aggregation? Explain the lifecycle relationship between the two objects.**
 4. **What is the difference between Association from Part III and the advanced relationship you implemented?**
 5. **How does your design follow the DRY principle?**
-**Answers:**
+**/Answers:**
 1. **To minimize the lines of code I will make. My child class is a type of the parent class. The child class can inherit everything from a class it is a type of.**
 2. **Inheritance reduced lines of code by making a general blueprint for the child classes. In my class Transaction, the class Order reused attributes offer, payment, cost, and change. The class Order did reuse transact() but modified it, making polymorphism.**
 3. **It is aggregation because the object is independent without the other. The object from class Order can function as a transaction without the object from class Counter. The class Counter functions as a reader that uses the Order to make out of something, not own it.**
