@@ -16,3 +16,5 @@
 [**--> OOPAct Summary | Topic: SG5**](q1/classAttributesMethods.md)
 
 [**--> OOPAct Summary | Topic: SG6**](q1/classRelationships.md)
+
+[**--> OOPAct Summary | Topic: SG7**](q1/advancedRelationships.md)
