@@ -18,3 +18,6 @@
 [**--> OOPAct Summary | Topic: SG6**](q1/classRelationships.md)
 
 [**--> OOPAct Summary | Topic: SG7**](q1/advancedRelationships.md)
+
+# Quarter 2 Links:
+[**--> Encapsulation Code | Topic: SG8**](q2/sg8_encapsulation.py)
