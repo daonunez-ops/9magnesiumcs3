@@ -1,6 +1,6 @@
 class Publication: # Parent Class
     def __init__(self, title, author): # Initiates the attributes
-        self.__TITLE, self.__AUTHOR = title, author
+        self.__TITLE, self.__AUTHOR = title, author # Assignment
 
     @property # Getter Method
     def title(self):
@@ -8,15 +8,15 @@ class Publication: # Parent Class
         
     @title.setter # Setter Method
     def title(self, title):
-        self.__TITLE = title
+        self.__TITLE = title # Assignment
 
     @property # Getter Method
     def author(self):   
         return self.__AUTHOR
 
     @author.setter # Setter Method
-    def author(self, author):
-        self.__AUTHOR = author
+    def author(self, author): 
+        self.__AUTHOR = author # Assignment
 
     def display_info(self): # A Display Function
         print(f'Title: {self.__TITLE}\nAuthor: {self.__AUTHOR}')
@@ -24,7 +24,7 @@ class Publication: # Parent Class
 class Book(Publication): # Child Class
     def __init__(self, number_of_pages, title, author): # Initiates the attributes
         super().__init__(title, author) # Calls the parent class constructor
-        self.__PAGE_COUNT = number_of_pages
+        self.__PAGE_COUNT = number_of_pages # Assignment
 
     @property # Getter Method
     def page_count(self):
@@ -39,7 +39,7 @@ class Book(Publication): # Child Class
 class Magazine(Publication): # Child Class
     def __init__(self, issue_number, title, author): # Initiates the attributes
         super().__init__(title, author) # Calls the parent class constructor
-        self.__ISSUE_NUM = issue_number
+        self.__ISSUE_NUM = issue_number # Assignment
 
     @property # Getter Method
     def issue_number(self):
@@ -49,7 +49,7 @@ class Magazine(Publication): # Child Class
     def issue_number(self, issue_number):
         if issue_number < 0: # Constraint
             raise ValueError('The issue number must be positive.') # Stops the program
-        self.__ISSUE_NUM = issue_number
+        self.__ISSUE_NUM = issue_number # Assignment
 
 # Testing
 

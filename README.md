@@ -21,4 +21,5 @@
 
 # Quarter 2 Links:
 [**--> Encapsulation Code | Topic: SG8**](q2/sg8_encapsulation.py)
+
 [**--> Inheritance Code | Topic: SG9**](q2/sg9_inheritance.py)
