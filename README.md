@@ -26,7 +26,7 @@
 
 [**--> Method Overriding Code | Topic: SG10**](q2/sg10_method_overriding.py)
 
-[**--> Polymorphism Activity 1 Code | Topic: SG11**](q2/sg11_polymorphism_activity1.py)
+[**--> Polymorphism Activity 1 Code | Topic: SG11**](q2/sg11_polymorphism_a1.py)
 
 [**--> Polymorphism Activity 2 Documentation | Topic: SG11**](q2/sg11_polymorphism_a2.md)
 
